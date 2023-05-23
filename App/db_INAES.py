@@ -69,6 +69,7 @@ class bancoDeDados():
                                 return row
                         elif contaNome == None :
                                 print('Conta não encontrada')
+                                return False
                         
                 
                 self.desligarBd()
@@ -77,6 +78,6 @@ class bancoDeDados():
 
                 self.ligarBd()
                 
-                self.cursor.execute(f'''UPDATE clientes SET saldo = {saldo} WHERE nome = '{contaNome}' ''')        
+                self.cursor.execute(f'''update clientes set saldo = ?  where nome = ? ''',(saldo,contaNome))        
                 self.atualizarBd()
                 self.desligarBd()

@@ -1,10 +1,10 @@
 <mxfile host="65bd71144e">
     <diagram id="Q6354HftiYKHXJSlLoms" name="Banco">
-        <mxGraphModel dx="724" dy="984" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="#7D7D7D" math="0" shadow="0">
+        <mxGraphModel dx="749" dy="984" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="#7D7D7D" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
-                <mxCell id="107" style="edgeStyle=none;html=1;" edge="1" parent="1" source="2" target="14">
+                <mxCell id="107" style="edgeStyle=none;html=1;" parent="1" source="2" target="14" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
                 <mxCell id="2" value="Class&lt;br&gt;Banco&lt;br&gt;&lt;br&gt;" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;fillColor=#0050ef;strokeColor=#001DBC;labelPadding=10;noLabel=0;resizeWidth=1;resizeHeight=1;shadow=0;rounded=0;glass=0;fontColor=#ffffff;" parent="1" vertex="1">
@@ -132,7 +132,7 @@
                 <mxCell id="49" value="&lt;font color=&quot;#0000cc&quot;&gt;Verifica se contém o usuário na lista &lt;br&gt;e se a senha pertence aquele usuário.&lt;br&gt;&lt;br&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=default;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontColor=#009900;" parent="45" vertex="1">
                     <mxGeometry y="100" width="240" height="70" as="geometry"/>
                 </mxCell>
-                <mxCell id="108" style="edgeStyle=none;html=1;" edge="1" parent="1" source="60" target="88">
+                <mxCell id="108" style="edgeStyle=none;html=1;" parent="1" source="60" target="88" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
                 <mxCell id="60" value="Def&lt;br&gt;Criar Conta&lt;br&gt;&amp;lt;&amp;lt;Finalizado&amp;gt;&amp;gt;" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;fillColor=#60a917;strokeColor=#2D7600;labelPadding=10;noLabel=0;resizeWidth=1;resizeHeight=1;shadow=0;rounded=0;glass=0;fontColor=#ffffff;" parent="1" vertex="1">
@@ -161,6 +161,36 @@
                 </mxCell>
                 <mxCell id="70" value="&lt;span style=&quot;color: rgba(0, 0, 0, 0); font-family: monospace; font-size: 0px;&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22Verde%20%3D%20Output%22%20style%3D%22text%3Bhtml%3D1%3BstrokeColor%3Dnone%3BfillColor%3Ddefault%3Balign%3Dleft%3BverticalAlign%3Dmiddle%3BspacingLeft%3D4%3BspacingRight%3D4%3Boverflow%3Dhidden%3Brotatable%3D0%3Bpoints%3D%5B%5B0%2C0.5%5D%2C%5B1%2C0.5%5D%5D%3BportConstraint%3Deastwest%3BfontColor%3D%23009900%3B%22%20vertex%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20y%3D%2260%22%20width%3D%22160%22%20height%3D%2220%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;&lt;font color=&quot;#0000cc&quot;&gt;.&lt;br&gt;&lt;br&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=default;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontColor=#009900;" parent="66" vertex="1">
                     <mxGeometry y="60" width="240" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="sVffoQX3wnUGPR98qbGZ-130" style="edgeStyle=orthogonalEdgeStyle;html=1;" edge="1" parent="1" source="90" target="119">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="sVffoQX3wnUGPR98qbGZ-133" style="edgeStyle=orthogonalEdgeStyle;html=1;" edge="1" parent="1" source="90" target="116">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="980" y="1220"/>
+                            <mxPoint x="700" y="1220"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="sVffoQX3wnUGPR98qbGZ-134" style="edgeStyle=orthogonalEdgeStyle;html=1;" edge="1" parent="1" source="90" target="sVffoQX3wnUGPR98qbGZ-121">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="980" y="1220"/>
+                            <mxPoint x="1250" y="1220"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="sVffoQX3wnUGPR98qbGZ-135" style="edgeStyle=orthogonalEdgeStyle;html=1;entryX=0.469;entryY=-0.008;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="90" target="sVffoQX3wnUGPR98qbGZ-124">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="980" y="1220"/>
+                            <mxPoint x="1517" y="1220"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="sVffoQX3wnUGPR98qbGZ-136" style="edgeStyle=orthogonalEdgeStyle;html=1;" edge="1" parent="1" source="90" target="109">
+                    <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
                 <mxCell id="90" value="Def&lt;br&gt;menuPrincipal" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;fillColor=#60a917;strokeColor=#2D7600;labelPadding=10;noLabel=0;resizeWidth=1;resizeHeight=1;shadow=0;rounded=0;glass=0;fontColor=#ffffff;" parent="1" vertex="1">
                     <mxGeometry x="900" y="1000" width="160" height="200" as="geometry"/>
@@ -198,11 +228,62 @@
                 <mxCell id="101" value="" style="text;html=1;strokeColor=none;fillColor=default;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="99" vertex="1">
                     <mxGeometry y="60" width="160" height="20" as="geometry"/>
                 </mxCell>
+                <mxCell id="115" style="edgeStyle=orthogonalEdgeStyle;html=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="109" target="37">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="109" value="Def&lt;br&gt;Deslogar" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;fillColor=#60a917;strokeColor=#2D7600;labelPadding=10;noLabel=0;resizeWidth=1;resizeHeight=1;shadow=0;rounded=0;glass=0;fontColor=#ffffff;" vertex="1" parent="1">
+                    <mxGeometry x="290" y="1300" width="240" height="130" as="geometry"/>
+                </mxCell>
+                <mxCell id="112" value="" style="text;html=1;strokeColor=none;fillColor=default;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontColor=#6600CC;" vertex="1" parent="109">
+                    <mxGeometry y="40" width="240" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="113" value="&lt;font color=&quot;#0000cc&quot;&gt;Pega todas as informações de login e zera&lt;br&gt;Retornando ao menu inicial&lt;br&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=default;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontColor=#009900;" vertex="1" parent="109">
+                    <mxGeometry y="60" width="240" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="116" value="Def&lt;br&gt;Consultar Saldo" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;fillColor=#60a917;strokeColor=#2D7600;labelPadding=10;noLabel=0;resizeWidth=1;resizeHeight=1;shadow=0;rounded=0;glass=0;fontColor=#ffffff;" vertex="1" parent="1">
+                    <mxGeometry x="580" y="1300" width="240" height="130" as="geometry"/>
+                </mxCell>
+                <mxCell id="117" value="" style="text;html=1;strokeColor=none;fillColor=default;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontColor=#6600CC;" vertex="1" parent="116">
+                    <mxGeometry y="40" width="240" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="118" value="&lt;font color=&quot;#0000cc&quot;&gt;Pega as informações do display do usuário&amp;nbsp;&lt;br&gt;mostra na tela&lt;br&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=default;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontColor=#009900;" vertex="1" parent="116">
+                    <mxGeometry y="60" width="240" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="119" value="Def&lt;br&gt;Sacar" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;fillColor=#60a917;strokeColor=#2D7600;labelPadding=10;noLabel=0;resizeWidth=1;resizeHeight=1;shadow=0;rounded=0;glass=0;fontColor=#ffffff;" vertex="1" parent="1">
+                    <mxGeometry x="860" y="1300" width="240" height="130" as="geometry"/>
+                </mxCell>
+                <mxCell id="120" value="saldoSacado:float" style="text;html=1;strokeColor=none;fillColor=default;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontColor=#6600CC;" vertex="1" parent="119">
+                    <mxGeometry y="40" width="240" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="121" value="&lt;font color=&quot;#0000cc&quot;&gt;Compara se o usuário tem saldo na conta,&amp;nbsp;&lt;br&gt;caso tenha chama uma função no banco&lt;br&gt;de dados ( Atualizar Saldo)&lt;br&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=default;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontColor=#009900;" vertex="1" parent="119">
+                    <mxGeometry y="60" width="240" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="sVffoQX3wnUGPR98qbGZ-121" value="Def&lt;br&gt;Depositar" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;fillColor=#60a917;strokeColor=#2D7600;labelPadding=10;noLabel=0;resizeWidth=1;resizeHeight=1;shadow=0;rounded=0;glass=0;fontColor=#ffffff;" vertex="1" parent="1">
+                    <mxGeometry x="1130" y="1300" width="240" height="130" as="geometry"/>
+                </mxCell>
+                <mxCell id="sVffoQX3wnUGPR98qbGZ-122" value="saldoSacado:float" style="text;html=1;strokeColor=none;fillColor=default;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontColor=#6600CC;" vertex="1" parent="sVffoQX3wnUGPR98qbGZ-121">
+                    <mxGeometry y="40" width="240" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="sVffoQX3wnUGPR98qbGZ-123" value="&lt;font color=&quot;#0000cc&quot;&gt;Soma o valor depositado ao saldo do usua-&lt;br&gt;rio e atualiza no banco de dados com uma&lt;br&gt;função (Atualizar Saldo)&lt;br&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=default;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontColor=#009900;" vertex="1" parent="sVffoQX3wnUGPR98qbGZ-121">
+                    <mxGeometry y="60" width="240" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="sVffoQX3wnUGPR98qbGZ-124" value="Def&lt;br&gt;Transferir" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;fillColor=#60a917;strokeColor=#2D7600;labelPadding=10;noLabel=0;resizeWidth=1;resizeHeight=1;shadow=0;rounded=0;glass=0;fontColor=#ffffff;" vertex="1" parent="1">
+                    <mxGeometry x="1400" y="1300" width="250" height="190" as="geometry"/>
+                </mxCell>
+                <mxCell id="sVffoQX3wnUGPR98qbGZ-125" value="contaTransferencia:str&lt;span style=&quot;color: rgba(0, 0, 0, 0); font-family: monospace; font-size: 0px;&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22Def%26lt%3Bbr%26gt%3BDepositar%22%20style%3D%22swimlane%3BfontStyle%3D0%3Balign%3Dcenter%3BverticalAlign%3Dtop%3BchildLayout%3DstackLayout%3Bhorizontal%3D1%3BstartSize%3D40%3BhorizontalStack%3D0%3BresizeParent%3D1%3BresizeParentMax%3D0%3BresizeLast%3D0%3Bcollapsible%3D0%3BmarginBottom%3D0%3Bhtml%3D1%3BfillColor%3D%2360a917%3BstrokeColor%3D%232D7600%3BlabelPadding%3D10%3BnoLabel%3D0%3BresizeWidth%3D1%3BresizeHeight%3D1%3Bshadow%3D0%3Brounded%3D0%3Bglass%3D0%3BfontColor%3D%23ffffff%3B%22%20vertex%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%221410%22%20y%3D%221300%22%20width%3D%22240%22%20height%3D%22130%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3CmxCell%20id%3D%223%22%20value%3D%22saldoSacado%3Afloat%22%20style%3D%22text%3Bhtml%3D1%3BstrokeColor%3Dnone%3BfillColor%3Ddefault%3Balign%3Dleft%3BverticalAlign%3Dmiddle%3BspacingLeft%3D4%3BspacingRight%3D4%3Boverflow%3Dhidden%3Brotatable%3D0%3Bpoints%3D%5B%5B0%2C0.5%5D%2C%5B1%2C0.5%5D%5D%3BportConstraint%3Deastwest%3BfontColor%3D%236600CC%3B%22%20vertex%3D%221%22%20parent%3D%222%22%3E%3CmxGeometry%20y%3D%2240%22%20width%3D%22240%22%20height%3D%2220%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3CmxCell%20id%3D%224%22%20value%3D%22%26lt%3Bfont%20color%3D%26quot%3B%230000cc%26quot%3B%26gt%3BSoma%20o%20valor%20depositado%20ao%20saldo%20do%20usua-%26lt%3Bbr%26gt%3Brio%20e%20atualiza%20no%20banco%20de%20dados%20com%20uma%26lt%3Bbr%26gt%3Bfun%C3%A7%C3%A3o%20(Atualizar%20Saldo)%26lt%3Bbr%26gt%3B%26lt%3B%2Ffont%26gt%3B%22%20style%3D%22text%3Bhtml%3D1%3BstrokeColor%3Dnone%3BfillColor%3Ddefault%3Balign%3Dleft%3BverticalAlign%3Dmiddle%3BspacingLeft%3D4%3BspacingRight%3D4%3Boverflow%3Dhidden%3Brotatable%3D0%3Bpoints%3D%5B%5B0%2C0.5%5D%2C%5B1%2C0.5%5D%5D%3BportConstraint%3Deastwest%3BfontColor%3D%23009900%3B%22%20vertex%3D%221%22%20parent%3D%222%22%3E%3CmxGeometry%20y%3D%2260%22%20width%3D%22240%22%20height%3D%2270%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=default;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontColor=#6600CC;" vertex="1" parent="sVffoQX3wnUGPR98qbGZ-124">
+                    <mxGeometry y="40" width="250" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="sVffoQX3wnUGPR98qbGZ-127" value="valorTransferencia:float" style="text;html=1;strokeColor=none;fillColor=default;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontColor=#6600CC;" vertex="1" parent="sVffoQX3wnUGPR98qbGZ-124">
+                    <mxGeometry y="60" width="250" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="sVffoQX3wnUGPR98qbGZ-126" value="&lt;font color=&quot;#0000cc&quot;&gt;Compara se a conta logada tem dinheiro para&amp;nbsp;&lt;br&gt;transferencia. Pega o saldo da conta logada&lt;br&gt;e retira o dinheiro da transferencia e atualiza&lt;br&gt;o BD. Pega o saldo da conta de transferencia&lt;br&gt;e soma ao valor transferido e atualiza o BD.&lt;br&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=default;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontColor=#009900;" vertex="1" parent="sVffoQX3wnUGPR98qbGZ-124">
+                    <mxGeometry y="80" width="250" height="110" as="geometry"/>
+                </mxCell>
             </root>
         </mxGraphModel>
     </diagram>
     <diagram id="xzxv6ihuMSCX7Wr9IGkO" name="Data-Base">
-        <mxGraphModel dx="724" dy="984" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="#7D7D7D" math="0" shadow="0">
+        <mxGraphModel dx="989" dy="984" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="#7D7D7D" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
